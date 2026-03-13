@@ -1,11 +1,13 @@
 <div align="center">
 
 <picture>
-  <img src="https://raw.githubusercontent.com/archia-tech/.github/main/assets/header.svg" alt="有栖科技 | Archia Tech" width="800"/>
+  <img src="https://raw.githubusercontent.com/archia-tech/.github/main/assets/archia-logo.png" alt="Archia Tech" width="200"/>
 </picture>
 
-<br/>
-<br/>
+<h3>有栖科技 | Archia Tech</h3>
+
+<p><em>Life, Well Nested.</em></p>
+
 
 <a href="https://archia-tech.com">
   <img src="https://img.shields.io/badge/官网-archia--tech.com-38bdf8?style=flat-square&logo=safari&logoColor=white" alt="Website"/>
