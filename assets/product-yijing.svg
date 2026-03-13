@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect width="380" height="220" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1"/>
+
+  <!-- Mirror / Wardrobe icon -->
+  <g transform="translate(165, 24)">
+    <!-- Mirror frame -->
+    <rect x="5" y="0" width="40" height="56" rx="8" fill="none" stroke="url(#iconGrad)" stroke-width="2"/>
+    <!-- Mirror reflection -->
+    <line x1="15" y1="12" x2="22" y2="20" stroke="#38bdf8" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="15" y1="18" x2="18" y2="22" stroke="#38bdf8" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+    <!-- Hanger -->
+    <path d="M18,46 Q25,38 32,46" fill="none" stroke="url(#iconGrad)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="25" y1="38" x2="25" y2="34" stroke="url(#iconGrad)" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="25" cy="33" r="2" fill="none" stroke="url(#iconGrad)" stroke-width="1.2"/>
+  </g>
+
+  <!-- Product name -->
+  <text x="190" y="110" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#e2e8f0" letter-spacing="4">
+    衣镜
+  </text>
+
+  <!-- Tagline -->
+  <text x="190" y="138" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#38bdf8" letter-spacing="2">
+    智能衣橱管理 · 轻松搭配穿搭
+  </text>
+
+  <!-- Description -->
+  <text x="190" y="172" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#64748b">
+    <tspan x="190" dy="0">告别每天「不知道穿什么」的烦恼</tspan>
+    <tspan x="190" dy="20">让衣橱里的每一件衣服都被看见</tspan>
+  </text>
+</svg>

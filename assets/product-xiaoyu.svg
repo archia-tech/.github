@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect width="380" height="220" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1"/>
+
+  <!-- Cat face icon -->
+  <g transform="translate(165, 24)">
+    <!-- Cat head -->
+    <ellipse cx="25" cy="36" rx="18" ry="15" fill="none" stroke="url(#iconGrad)" stroke-width="2"/>
+    <!-- Ears -->
+    <path d="M10,24 L6,8 L18,20" fill="none" stroke="url(#iconGrad)" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M40,24 L44,8 L32,20" fill="none" stroke="url(#iconGrad)" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Eyes -->
+    <circle cx="18" cy="34" r="2.5" fill="url(#iconGrad)" opacity="0.7"/>
+    <circle cx="32" cy="34" r="2.5" fill="url(#iconGrad)" opacity="0.7"/>
+    <!-- Nose -->
+    <path d="M23,39 L25,41 L27,39" fill="none" stroke="url(#iconGrad)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Whiskers -->
+    <line x1="2" y1="33" x2="13" y2="36" stroke="url(#iconGrad)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="2" y1="39" x2="13" y2="38" stroke="url(#iconGrad)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="48" y1="33" x2="37" y2="36" stroke="url(#iconGrad)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="48" y1="39" x2="37" y2="38" stroke="url(#iconGrad)" stroke-width="0.8" opacity="0.5"/>
+    <!-- Fish treat -->
+    <ellipse cx="25" cy="54" rx="6" ry="3" fill="none" stroke="url(#iconGrad)" stroke-width="1.2" opacity="0.6"/>
+    <path d="M31,54 L36,50 L36,58 Z" fill="url(#iconGrad)" opacity="0.4"/>
+  </g>
+
+  <!-- Product name -->
+  <text x="190" y="110" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#e2e8f0" letter-spacing="4">
+    小鱼干
+  </text>
+
+  <!-- Tagline -->
+  <text x="190" y="138" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#fb923c" letter-spacing="2">
+    一站式宠物服务平台
+  </text>
+
+  <!-- Description -->
+  <text x="190" y="172" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#64748b">
+    <tspan x="190" dy="0">为养宠人群提供全品类生活服务</tspan>
+    <tspan x="190" dy="20">让每一位毛孩子都被温柔以待</tspan>
+  </text>
+</svg>

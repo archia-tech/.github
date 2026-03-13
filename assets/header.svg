@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#818cf8"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e2e8f0"/>
+      <stop offset="100%" style="stop-color:#f8fafc"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Dot pattern -->
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#334155" opacity="0.5"/>
+    </pattern>
+    <!-- Nest/Home icon -->
+    <symbol id="nest" viewBox="0 0 64 64">
+      <path d="M32 8 L4 30 L12 30 L12 52 L26 52 L26 38 L38 38 L38 52 L52 52 L52 30 L60 30 Z"
+            fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="32" cy="28" r="4" fill="url(#accent)" opacity="0.6"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="280" fill="url(#bg)" rx="12"/>
+  <rect width="800" height="280" fill="url(#dots)" rx="12"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="1" x2="800" y2="1" stroke="url(#accent)" stroke-width="2" opacity="0.6"/>
+  <line x1="0" y1="279" x2="800" y2="279" stroke="url(#accent)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Corner accents -->
+  <path d="M0,40 L0,12 Q0,0 12,0 L40,0" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
+  <path d="M760,0 L788,0 Q800,0 800,12 L800,40" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0,240 L0,268 Q0,280 12,280 L40,280" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
+  <path d="M760,280 L788,280 Q800,280 800,268 L800,240" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Icon -->
+  <use href="#nest" x="348" y="45" width="104" height="104" filter="url(#glow)"/>
+
+  <!-- Company name -->
+  <text x="400" y="190" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="42" font-weight="700" fill="url(#textGrad)" letter-spacing="8">
+    有栖科技
+  </text>
+
+  <!-- Divider line -->
+  <line x1="300" y1="210" x2="500" y2="210" stroke="url(#accent)" stroke-width="1" opacity="0.5"/>
+
+  <!-- Slogan -->
+  <text x="400" y="242" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#94a3b8" letter-spacing="6">
+    让生活，各有所栖
+  </text>
+</svg>

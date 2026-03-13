@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="80" viewBox="0 0 800 80">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent"/>
+      <stop offset="15%" style="stop-color:#38bdf8"/>
+      <stop offset="85%" style="stop-color:#818cf8"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top divider -->
+  <line x1="100" y1="8" x2="700" y2="8" stroke="url(#line)" stroke-width="0.5"/>
+
+  <!-- Brand -->
+  <text x="400" y="40" text-anchor="middle" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#475569" letter-spacing="3">
+    有栖科技 · 让生活各有所栖
+  </text>
+
+  <!-- Copyright -->
+  <text x="400" y="62" text-anchor="middle" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#334155" letter-spacing="1">
+    © 2025 Archia Tech. All rights reserved.
+  </text>
+</svg>
